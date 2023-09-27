@@ -1,0 +1,6 @@
+version: '3'
+services:
+  backend:
+    image: hamburger9/al-api:0.0.1
+    ports:
+      - "3000:3000"
